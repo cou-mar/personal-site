@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+ body {
+    font-size: 10px;
+ }
+
+#name {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-style: oblique;
+}
+
+#pro-pic {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+#intro-mobile {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#name-nav {
+    font-size: 1.2rem;
+    justify-content: space-between;
+}
+
+#wps {
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10vw;
+}
+
+ /* use rem for fonts to auto-resize when window resizes */
