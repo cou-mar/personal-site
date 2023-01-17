@@ -1,137 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hi! I'm Courtney</title>
-    
+
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <main>
+      <div id="intro-mobile">
+        <!-- dark mode -->
+        <div></div>
 
-        <div id="intro-mobile">
+        <div id="name-nav" class="intro-content">
+          <!-- name and scrolling nav -->
+          <div id="name">Courtney Marasigan</div>
 
-            <!-- dark mode -->
-            <div></div>
-
-
-            <div id="name-nav" class="intro-content">
-
-                    <!-- name and scrolling nav -->
-                    <div id="name">Courtney Marasigan</div>
-    
-                    <!-- scrolling nav -->
-                    <nav class="navbar navbar-expand-lg bg-light">
-                        <div class="container-fluid">
-                          <!-- <a class="navbar-brand" href="#">Courtney Marasigan</a> -->
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="navbarScroll">
-                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Introduction</a>
-                              </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About Me</a>
-                              </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Portfolio</a>
-                              </li>
-                            </ul>
-                             </div>
-                             </div>
-                    </nav>
-
-
-                </div>
-                
-
-                <!-- welcome, photo, social links -->
-                <div id="wps" class="intro-content">
-                    <div id="welcome">
-                        <h4>hi! welcome 😊</h4>
-                    </div>
-
-                    <div id="photo">
-                        <img src="./profilePhoto.JPG" alt="profile photo" id="pro-pic">
-                    </div>
-
-                    <div id="socials">
-                        <div>
-                            <a href="https://www.linkedin.com/in/c-marasigan/">LinkedIn</a>
-                        </div>
-                        <div>
-                            <a href="https://github.com/cou-mar">GitHub</a>
-                        </div>
-                    </div>
-
-                </div>  
-
-                <!-- about me -->
-                <div id="about">
-                    <h4>About Me</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                
-                
-   
+          <!-- scrolling nav -->
+          <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <!-- <a class="navbar-brand" href="#">Courtney Marasigan</a> -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul
+                  class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                  style="--bs-scroll-height: 100px"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link" href="#introSection">Introduction</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutSection">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolioSection">Portfolio</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         </div>
 
-        <div id="intro-desktop">
-            <section>
-                <!-- dark mode -->
-                <div></div>
+        <!-- welcome, photo, social links -->
+        <div id="introSection" class="intro-content">
+          <div id="welcome">
+            <h5>thanks for stopping by 😊</h5>
+          </div>
 
-                <!-- name -->
-                <div></div>
+          <div id="photo">
+            <img src="./profilePhoto.JPG" alt="profile photo" id="pro-pic" />
+          </div>
 
-                <!-- scrolling nav -->
-                <div></div>        
-                
-                <!-- welcome and social links -->
-                <div></div>
-
-                <!-- photo -->
-                <div></div>
-
-                <!-- about me -->
-                <div></div>
-            </section>
+          <div id="socials">
+            <div>
+              <a href="https://www.linkedin.com/in/c-marasigan/">LinkedIn</a>
+            </div>
+            <div>
+              <a href="https://github.com/cou-mar">GitHub</a>
+            </div>
+            <div>
+              <a
+                href="https://docs.google.com/document/d/1fyPIw0-1WN5HTTQxu0eBw68BSPG6PsksBOCJK6rweg8/edit?usp=sharing"
+                >Résumé</a
+              >
+            </div>
+          </div>
         </div>
 
-        <!-- portfolio -->
+        <!-- about me -->
+        <div id="aboutSection">
+          <h4>About Me</h4>
+          <p>
+            I'm a junior Web Developer with a legal background who is looking
+            for a chance to demonstrate I have what it takes to learn, grow, and
+            excel in this field.
+          </p>
+          <p>
+            I'm most motivated by passion, justice, human rights, and
+            interpersonal connections. As such, I desire to do meaningful work.
+            My aim is to join the tech industry and leverage my skills in order
+            to impact the world at large. Despite not having prior experience in
+            tech, I am a quick learner who takes initiative and hungers to
+            succeed.
+          </p>
+          <p>
+            I aspire to work for an organization or company that cares about its
+            impact on society as well as the development of its employees. If
+            it's willing to invest in me, as a newcomer to the industry, then I
+            will give it everything I can. Work-life balance is important to me
+            in addition to the overall culture of the company. The flexibility
+            of remote and in-person work would be ideal.
+          </p>
+        </div>
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider" />
+
+        <h4 id="portfolioSection">Portfolio</h4>
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Rally for Pink
+            </h2>
+            <p class="lead">
+                This full-stack single-page web app was created using the MERN stack. It's an event tracker specifically for events related to breast cancer. I chose this topic as a dedication to my aunt who passed two days prior to starting this project. Users can view existing events, add new ones, and save events to their "favorites" list.
+            </p>
+            <p>
+                HTML &middot; CSS &middot; Mongoose &middot; MongoDB &middot; ExpressJS &middot; React &middot; NodeJS &middot; Axios
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="./rallyImg.png" alt="Rally for Pink homepage">     
+          </div>
+        </div>
+
+        <!-- <hr class="featurette-divider" /> -->
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">
+              The Wanderer's Guide
+            </h2>
+            <p class="lead">
+                This full-stack multi-page web app organizes traveling by allowing you to create and save either lists (in numbered format e.g. travel checklist) or notes (in free-form text format e.g. journal entry).
+            </p>
+            <p>
+                HTML &middot; CSS &middot; Mongoose &middot; MongoDB &middot; ExpressJS &middot; React &middot; NodeJS &middot; HandlebarsJS
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="./guideImg.png" alt="The Wanderer's Guide homepage">
+          </div>
+        </div>
+
+        <!-- <hr class="featurette-divider" /> -->
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Waste Less 
+            </h2>
+            <p class="lead">
+                This canvas-based game aims to educate players about proper recycling methods in a fun way. Players move the bin using arrow keys to collect recyclable material. Negative points are given for placing incorrect items in the bin.
+            </p>
+            <p>
+                HTML &middot; CSS &middot; JavaScript
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="./wasteImg.png" alt="Waste Less game">
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- /END THE FEATURETTES -->
+      </div>
+
+      <div id="intro-desktop">
         <section>
-            <!-- title -->
-            <div></div>
+          <!-- dark mode -->
+          <div></div>
 
-            <!-- project 1 -->
-            <div></div>
+          <!-- name -->
+          <div></div>
 
-            <!-- project 2 -->
-            <div></div>
+          <!-- scrolling nav -->
+          <div></div>
 
-            <!-- project 3 -->
-            <div></div>
+          <!-- welcome and social links -->
+          <div></div>
 
-            <!-- thanks -->
-            <div></div>
+          <!-- photo -->
+          <div></div>
+
+          <!-- about me -->
+          <div></div>
         </section>
+      </div>
 
+      <!-- portfolio -->
+      <section>
+        <!-- title -->
+        <div></div>
+
+        <!-- project 1 -->
+        <div></div>
+
+        <!-- project 2 -->
+        <div></div>
+
+        <!-- project 3 -->
+        <div></div>
+
+        <!-- thanks -->
+        <div></div>
+      </section>
     </main>
 
-    <footer></footer>    
+    <div style="text-align: center">
+      &middot;&middot;&middot;<i>esse quam videri</i>&middot;&middot;&middot;
+    </div>
+
+    <div class="signoff">designed & coded by courtney with ♡</div>
+
+    <footer class="container">
+      <p class="float-right"><a href="#">back to top</a></p>
+    </footer>
 
     <script src="./index.js"></script>
     <!-- using Bootstrap with JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
     <!-- dark mode -->
     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-</body>
+  </body>
 </html>

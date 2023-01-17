@@ -4,8 +4,10 @@
  }
 
  body {
-    font-size: 10px;
+    font-size: 15px;
  }
+
+ 
 
 #name {
     margin-top: 15px;
@@ -35,10 +37,19 @@
     justify-content: space-between;
 }
 
-#wps {
+#introSection {
     justify-content: space-around;
     align-items: center;
     margin: 0 10vw;
+}
+
+.signoff{
+    font-size: 10px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
 }
 
  /* use rem for fonts to auto-resize when window resizes */
