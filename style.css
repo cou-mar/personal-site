@@ -8,7 +8,7 @@
     background-image: linear-gradient(to right bottom, #f9e5bc, #e2dbb1, #ccd0a8, #b7c5a0, #a2ba9a, #90b095, #80a590, #719a8b, #628e85, #54827f, #497579, #3f6971);
  }
 
-.containerTransparency{
+.containerTransparency {
     background: rgba(255,255,255,0.3);
     border-radius: 25px;
     width: 60vw;
@@ -49,6 +49,11 @@
     justify-content: space-around;
     align-items: center;
     margin: 0 10vw;
+}
+
+#aboutSection {
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 .signoff{
