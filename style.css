@@ -57,10 +57,35 @@
     margin-bottom: 30px;
 }
 
+.featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+  }
+
+  /* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+
+/* responsiveness to port size */
+  @media (min-width: 40em) {
+    .featurette-heading {
+      font-size: 40px;
+    }
+  }
+
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+
 .footer {
     display: flex;
     float: right;
-    margin-right: 15px;
+    margin-right: 25px;
     margin-bottom: 15px;
 }
 
