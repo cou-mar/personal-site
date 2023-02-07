@@ -57,6 +57,15 @@
     margin-bottom: 30px;
 }
 
+.projectLink {
+    text-decoration: none;
+    color: #F9E5BC;
+}
+
+.projectLink:hover {
+    color: #3F6971;
+}
+
 .featurette-divider {
     margin: 5rem 0;
     /* Space out the Bootstrap <hr> more */
