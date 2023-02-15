@@ -71,6 +71,10 @@ body {
   margin-bottom: 30px;
 }
 
+.aboutPics img {
+  height: 70px;
+}
+
 /* .projectLink {
     text-decoration: none;
     color: #F9E5BC;
