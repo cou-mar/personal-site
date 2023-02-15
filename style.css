@@ -144,14 +144,16 @@ body {
 
 .footer {
   display: flex;
-  float: right;
+  /* float: right; */
+  justify-content: space-between;
+  margin-left: 15px;
   margin-right: 25px;
   margin-bottom: 15px;
 }
 
 .signoff {
   font-size: 10px;
-  margin-bottom: 2px;
+  margin-bottom: 7px;
   margin-left: 2px;
   position: fixed;
   bottom: 0;
